@@ -51,7 +51,7 @@ If you look closely at the code at home.html.erb, you'll see a bunch of confusin
 ```
 Don't worry if this is confusing to you. We'll be covering forms in the future. What **is** important is that a form POSTS a request to a endpoint/path.
 
-To fix the errors, route a path in the routes.rb file so that a request to `localhost:3000` routes to the `stringify` method in `pages_controller.rb`.
+To fix the errors, route a path in the routes.rb file so that a POST request to `localhost:3000` (also known as the `root`) routes to the `stringify` method in `pages_controller.rb`.
 
 Now that we've gone through that hassle, we now face our second problem. If you try to submit the form, you get a views error message (missing template pages/stringify)!
 
